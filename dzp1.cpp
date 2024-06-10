@@ -95,7 +95,6 @@ void sortAnswers(Node* root){
 void printQuestions(vector<Node*>& v) {
 	for (Node* n : v) { cout << n->question << '[' << n->rating << ']' << endl; }
 }
-
 void printAll(Node* root) {
 	Node* next;
 	stack<Node*> stc;
